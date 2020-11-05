@@ -1,5 +1,5 @@
 module.exports = {
   configureWebpack: {
-    externals: ['vue', 'vue-router', /^@pccw\/.+/]
+    externals: [/^@pccw\/.+/]
   }
 }
