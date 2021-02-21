@@ -1,5 +1,5 @@
 {
-  "name": "@pccw/single-spa-vue",
+  "name": "@example/single-spa-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {

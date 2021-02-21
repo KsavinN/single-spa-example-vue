@@ -1,20 +1,17 @@
 <template>
   <div class="hello">
-    <h1>Hello world</h1>
+    <h1>Hello micro world</h1>
     <p>This is my message: {{msg}}</p>
   </div>
 </template>
 
 <script>
-import {
-  getName
-} from '@pccw/single-spa-util';
 
 export default {
   name: 'HelloWorld',
   data: function() {
     return {
-      msg: getName()
+      msg: 'Micro Vue'
     }
   }
 }
